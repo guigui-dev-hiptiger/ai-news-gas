@@ -61,7 +61,7 @@
 ---
 
 ## 🔌 利用する外部サービス・API
-- **Google Custom Search API**：Web検索用
+- **Google Custom Search API**：Web検索用  
 - **Google Gemini API**：情報生成＆事実確認用
 
 ### Google Apps Script 標準サービス
@@ -78,14 +78,14 @@
 
 ## ⚙️ 設定手順
 
-1. Google Apps Scriptプロジェクトを作成
-2. コードを `.gs` ファイルに貼り付け
+1. Google Apps Scriptプロジェクトを作成  
+2. コードを `.gs` ファイルに貼り付け  
 3. スクリプトプロパティに以下を登録：
    - `GEMINI_API_KEY`
    - `CUSTOM_SEARCH_API_KEY`
-   - `CUSTOM_SEARCH_ENGINE_ID`
+   - `CUSTOM_SEARCH_ENGINE_ID`  
 4. Google Cloud Consoleで以下のAPIを有効化：
-   - Google Custom Search API
+   - Google Custom Search API  
    - Gemini API（Generative Language API）
 
 ---
@@ -97,3 +97,5 @@
 
 ---
 
+## 👤 クレジット
+このスクリプトは [@guigui](https://note.com/hip_tiger5987) によって設計・開発されました。
